@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl" data-t-nl="SDG probleemradar | Kom van de bank af" data-t-en="SDG problem radar | Get off the couch" data-d-nl="Een filter over bestaande problemen uit de database, met de bijdrage-ideeën erbij. Geen AI-assistent." data-d-en="A filter over existing problems from the database, with the contribution ideas that come with them. Not the AI assistant.">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SDG probleemradar | Kom van de bank af</title>
+<meta name="description" content="Een filter over bestaande problemen uit de database, met de bijdrage-ideeën erbij. Geen AI-assistent.">
+<script>(function(){var d=document.documentElement;try{var q=new URLSearchParams(location.search).get('lang');var l=(q==='en'||q==='nl')?q:localStorage.getItem('kvdb-lang');if(l==='en'||l==='nl')d.lang=l;}catch(e){}d.classList.add('js');if(/[?&]shot=1/.test(location.search))d.classList.add('shot');var t=d.getAttribute('data-t-'+d.lang);if(t)document.title=t;})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,800&amp;family=DM+Sans:wght@400;700&amp;family=Space+Mono:wght@400;700&amp;display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<link rel="stylesheet" href="verken.css">
+</head>
+<body class="page-verken">
+<a class="skip" href="#inhoud"><span class="l-nl">Naar de inhoud</span><span class="l-en">Skip to content</span></a>
+<header class="topnav" data-ui><div class="navbar"><a class="brand" href="../"><span class="brand-dots" aria-hidden="true"><i></i><i></i><i></i></span><span class="l-nl">Kom van de bank af</span><span class="l-en">Get off the couch</span></a><div class="langtoggle" role="group" aria-label="Taal / Language"><button type="button" data-set-lang="nl" aria-pressed="true">NL</button><button type="button" data-set-lang="en" aria-pressed="false">EN</button></div><nav class="navlinks" aria-label="Menu"><a href="../#kern"><span class="l-nl">De kern</span><span class="l-en">The core</span></a><a href="../#zo-werkt-het"><span class="l-nl">Zo werkt het</span><span class="l-en">How it works</span></a><a href="../#problemen"><span class="l-nl">De problemen</span><span class="l-en">The problems</span></a><a href="../#status"><span class="l-nl">Status</span><span class="l-en">Status</span></a><a href="../#bronnen"><span class="l-nl">Bronnen</span><span class="l-en">Sources</span></a><a class="nav-verken" href="./" aria-current="page"><span class="l-nl">Verken</span><span class="l-en">Explore</span></a></nav></div></header>
+<main id="inhoud">
+<section class="vhero"><div class="wrap vhero-grid"><div>
+<p class="eyebrow"><i style="--c:#26BDE2"></i>// SDG probleemradar</p>
+<h1><span class="l-nl" lang="nl">Verken de 917 problemen</span><span class="l-en" lang="en">Explore the 917 problems</span></h1>
+<div class="honest card" role="note"><p class="tag">// <span class="l-nl">eerlijk</span><span class="l-en">honest</span></p><div class="l-nl" lang="nl"><p class="note-lead"><strong>Dit is een filter over bestaande problemen. Het is niet de AI-assistent die een nieuw probleem voor jou formuleert: die assistent is nog een ontwerp, er is geen werkende app.</strong></p><ul><li>Van sommige projecten kunnen de status of einddatum verouderd zijn (beschrijvingen van 2021 tot 2023). Controleer dat altijd bij de bron.</li><li>Bijdragen zijn gemarkeerd als idee waar het een idee is. De koppeling tussen een probleem en een bijdrage is bijna altijd een idee. Alles staat hier ter illustratie en inspiratie.</li><li>Wat je hier kiest of typt blijft in je browser. Er wordt niets verstuurd of opgeslagen.</li></ul></div><div class="l-en" lang="en"><p class="note-lead"><strong>This is a filter over existing problems. It is not the AI assistant that shapes a new problem for you: that assistant is still a design, there is no working app.</strong></p><ul><li>For some projects the status or end date may be out of date (descriptions from 2021 to 2023). Always check this at the source.</li><li>Contributions are marked idea where they are an idea. The link between a problem and a contribution is almost always an idea. Everything is shown here for illustration and inspiration.</li><li>What you pick or type here stays in your browser. Nothing is sent or stored.</li></ul></div></div>
+</div><figure class="art verken-fig"><picture><source type="image/svg+xml" srcset="../img/samen.svg"><img src="../img/samen.png" width="1200" height="1200" alt="Vier figuren aan een ronde tafel met kopjes, een plant en een telefoon" data-alt-nl="Vier figuren aan een ronde tafel met kopjes, een plant en een telefoon" data-alt-en="Four figures around a round table with cups, a plant and a phone" loading="lazy" decoding="async"></picture></figure></div></section>
+<noscript><div class="wrap"><p class="card"><span class="l-nl">Deze verkenner heeft JavaScript nodig. Alles gebeurt in je browser.</span><span class="l-en">This explorer needs JavaScript. Everything happens in your browser.</span></p></div></noscript>
+<section class="vtool band band-vacht"><div class="wrap">
+<div class="tabs" role="tablist" aria-label="Weergave / View">
+<button role="tab" id="tab-voor-jou" aria-controls="panel-voor-jou" aria-selected="true" type="button"><span class="l-nl">Voor jou</span><span class="l-en">For you</span></button>
+<button role="tab" id="tab-overzicht" aria-controls="panel-overzicht" aria-selected="false" tabindex="-1" type="button"><span class="l-nl">Overzicht</span><span class="l-en">Overview</span></button>
+</div>
+<div id="panel-voor-jou" role="tabpanel" aria-labelledby="tab-voor-jou" class="panel"></div>
+<div id="panel-overzicht" role="tabpanel" aria-labelledby="tab-overzicht" class="panel" hidden></div>
+</div></section>
+</main>
+<footer class="foot"><div class="wrap foot-in"><span class="dots" aria-hidden="true"><i style="--c:#E5243B"></i><i style="--c:#DDA63A"></i><i style="--c:#4C9F38"></i><i style="--c:#C5192D"></i><i style="--c:#FF3A21"></i><i style="--c:#26BDE2"></i><i style="--c:#FCC30B"></i><i style="--c:#A21942"></i><i style="--c:#FD6925"></i><i style="--c:#DD1367"></i><i style="--c:#FD9D24"></i><i style="--c:#BF8B2E"></i><i style="--c:#3F7E44"></i><i style="--c:#0A97D9"></i><i style="--c:#56C02B"></i><i style="--c:#00689D"></i><i style="--c:#19486A"></i></span><p><a href="../"><span class="l-nl">Terug naar Kom van de bank af</span><span class="l-en">Back to Get off the couch</span></a></p></div></footer>
+<script src="../site.js" defer></script>
+<script src="verken.js" defer></script>
+</body>
+</html>
